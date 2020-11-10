@@ -1,11 +1,11 @@
 ## Part 1: Test it with SQL
-id int
+id int PRIMARY KEY
 employer varchar
 name varchar
 skill varchar
 
 ## Part 2: Test it with SQL
-SELECT *
+SELECT name
 FROM techjobs.employer
 WHERE location = "St. Louis";
 
